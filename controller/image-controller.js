@@ -1,7 +1,7 @@
 import grid from "gridfs-stream";
 import mongoose from "mongoose";
 
-const url = "http://localhost:8000";
+const url = "https://whatsapp-backend-ykyu.onrender.com";
 let gfs;
 let gridFsBucket;
 const connect = mongoose.connection;
