@@ -13,7 +13,7 @@ app.use(bodyParser.json({ extended: true }));
 
 app.use("/", Router);
 
-const PORT = 8000;
+const PORT =process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log("listening on port", PORT);
   // console.log(USERNAME, PASSWORD);
